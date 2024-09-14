@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #007bff;
+    padding: 10px;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #000;
+}
+
+#search-bar {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-input {
+    padding: 5px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+#register-btn,
+#login-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#quienes-somos {
+    text-align: center;
+    margin: 20px;
+}
+
+#image-carousel-container {
+    position: relative;
+    width: 70%; /* Ajusta el ancho del contenedor del carrusel según tus preferencias */
+    overflow: hidden;
+    margin: auto; /* Centra el contenedor del carrusel */
+}
+
+#image-carousel {
+    display: flex;
+    width: 400%; /* Ancho total para mostrar una imagen a la vez */
+    transition: transform 0.5s ease-in-out;
+    position: relative;
+}
+
+#image-carousel img {
+    width: 100%; /* Ajusta el ancho de cada imagen */
+    max-height: 400px; /* Limita la altura de las imágenes */
+    object-fit: cover;
+}
+
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#prev-btn {
+    left: 10px;
+}
+
+#next-btn {
+    right: 10px;
+}
+
+#prev-btn::before,
+#next-btn::before {
+    content: '\2190'; /* Flecha izquierda Unicode */
+}
+
+#next-btn::before {
+    content: '\2192'; /* Flecha derecha Unicode */
+}
+
+#image-carousel:hover .nav-btn {
+    opacity: 1;
+}
+
+#prev-btn:hover,
+#next-btn:hover {
+    opacity: 0.8;
+}
+
+#bottom-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#bottom-bar a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}

@@ -1,0 +1,46 @@
+.content__products {
+    display: flex;
+    width: 100%;
+}
+
+.content__products div {
+    width: 100%;
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(36, 106, 211);
+    font-size: 1.7rem;
+}
+
+.div1 span {
+    color: rgba(226, 29, 29, 0.76);
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.div2--inputs {
+    margin-top: 300px;
+}
+
+.div2--no-inputs {
+    justify-content: center;
+}
+
+.div2 ul {
+    width: 290px;
+    margin-top: 20px;
+}
+
+.div2 li {
+    padding: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.6);
+}

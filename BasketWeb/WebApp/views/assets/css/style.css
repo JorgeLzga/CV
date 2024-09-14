@@ -1,0 +1,234 @@
+    
+::-webkit-scrollbar {
+    display: none;
+} 
+
+/* Declaración de variables de color */
+:root {
+  --color-Terracota: #A62F14;
+  --color-Miel:      #F2CA80;
+  --color-Barron:    #733E32;
+  --color-Rubio:     #D98236;
+  --color-Desert:    #BF926B;
+  --color-Blanco:    #FFF;
+  --color-Negro:     #212529;
+}
+
+.bg-terracota {
+    background-color: var(--color-Terracota);
+}
+
+.text-terracota{
+    color: var(--color-Terracota);
+}
+
+.bg-miel {
+    background-color: var(--color-Miel);
+}
+
+.text-miel{
+    color: var(--color-Miel);
+}
+
+.bg-barron {
+    background-color: var(--color-Barron);
+}
+
+.text-barron{
+    color: var(--color-Barron);
+}
+
+.bg-rubio {
+    background-color: var(--color-Rubio);
+}
+
+.text-rubio {
+    color: var(--color-Rubio);
+}
+
+.bg-desert {
+    background-color: var(--color-Desert);
+}
+
+.text-desert {
+    color: var(--color-Desert);
+}
+
+.bg-negro {
+    background-color: var(--color-Negro);
+}
+
+.text-negro {
+    color: var(--color-Negro);
+}
+
+.navbar-brand:hover {
+    color: var(--color-Miel);
+}
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .dropdown-toggle:hover {
+    color: var(--color-Negro);
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-toggle,
+.navbar-nav .nav-item.dropdown:focus .dropdown-toggle,
+.navbar-nav .nav-item.dropdown .dropdown-menu a:hover,
+.navbar-nav .nav-item.dropdown .dropdown-menu a:focus {
+    color: var(--color-Miel);
+}
+
+.navbar-nav .nav-item.dropdown .dropdown-menu a:active,
+.navbar-nav .nav-item.dropdown .dropdown-menu a:focus {
+    background-color: var(--color-Miel);
+}
+
+.navbar-nav .nav-item.dropdown.show .dropdown-toggle,
+.navbar-nav .nav-item.dropdown .dropdown-menu.show a {
+    color: var(--color-Negro);
+}
+
+.navbar-nav .nav-item .nav-link:active,
+.navbar-nav .nav-item .nav-link:focus {
+    color: var(--color-Miel);
+}
+
+.body-text{
+    margin: 5% 10% 8% 10%;
+}
+
+
+/* Login Estilos Temporales  */
+.banner-login { 
+    width: 100%;
+    height: 300px; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+    background-image: url(https://wallpapers.com/images/hd/4k-basketball-wooden-backboard-29alqi8trlmbp7gd.jpg);
+}
+
+.button-terracota {
+    display: inline-block;
+    padding: 3px 15px;
+    text-decoration: none;
+    color: var(--color-Blanco);
+    background-color: var(--color-Terracota);
+    border: 3px solid var(--color-Terracota);
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.button-terracota:hover {
+    background-color: var(--color-Blanco);
+    color: var(--color-Terracota);
+    border: 3px solid var(--color-Terracota);
+
+}
+
+.button-miel {
+    display: inline-block;
+    padding: 3px 15px;
+    text-decoration: none;
+    color: var(--color-Blanco);
+    background-color: var(--color-Miel);
+    border: 3px solid var(--color-Miel);
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.button-miel:hover {
+    background-color: var(--color-Blanco);
+    color: var(--color-Miel);
+    border: 3px solid var(--color-Miel);
+
+}
+
+.button-barron {
+    display: inline-block;
+    padding: 3px 15px;
+    text-decoration: none;
+    color: var(--color-Blanco);
+    background-color: var(--color-Barron);
+    border: 3px solid var(--color-Barron);
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.button-barron:hover {
+    background-color: var(--color-Blanco);
+    color: var(--color-Barron);
+    border: 3px solid var(--color-Barron);
+
+}
+
+.button-desert {
+    display: inline-block;
+    padding: 3px 15px;
+    text-decoration: none;
+    color: var(--color-Blanco);
+    background-color: var(--color-Desert);
+    border: 3px solid var(--color-Desert);
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.button-desert:hover {
+    background-color: var(--color-Blanco);
+    color: var(--color-Desert);
+    border: 3px solid var(--color-Desert);
+
+}
+
+.button-rubio {
+    display: inline-block;
+    padding: 3px 15px;
+    text-decoration: none;
+    color: var(--color-Blanco);
+    background-color: var(--color-Rubio);
+    border: 3px solid var(--color-Rubio);
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.button-rubio:hover {
+    background-color: var(--color-Blanco);
+    color: var(--color-Rubio);
+    border: 3px solid var(--color-Rubio);
+
+}
+
+.placeholder-light::placeholder {
+    opacity: 0.5;
+}
+
+.icon{
+    font-size: 64px; 
+}
+
+.horizontal-line {
+    display: block;
+    border-top: 2px solid #C1C1C1;
+    margin: 0% 60% 2% 0%;
+}
+
+.horizontal-line-card {
+    border-color: var(--color-Desert);
+    border-width: 4px;
+    height: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 20%;
+    background-color: var(--color-Desert);
+    margin-bottom: 5px;
+}
+
+/* PanelControl CSS */
+.size-icon {
+    font-size: 24px;
+}
+
+.custom-img {
+        height: 270px; /* Establece la altura deseada para todas las imágenes */
+        object-fit: cover; /* Mantiene la relación de aspecto */
+    }

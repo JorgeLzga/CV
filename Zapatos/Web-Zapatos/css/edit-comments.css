@@ -1,0 +1,65 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.form-edit {
+    width: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 15px 20px;
+    border-radius: 7px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-edit h1 {
+    color: rgba(36, 106, 211, 1);
+}
+
+.form-edit textarea {
+    padding: 15px;
+    resize: none;
+    width: 100%;
+    height: 170px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+}
+
+.btn-a {
+    margin-top: 7px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 7px;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(117, 117, 117);
+    transition: all 0.2s ease;
+    color: #fff;
+}
+
+.btn {
+    margin-top: 7px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background-color: rgba(36, 106, 211, 1);
+}
+
+.form-edit input:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.4);
+}
